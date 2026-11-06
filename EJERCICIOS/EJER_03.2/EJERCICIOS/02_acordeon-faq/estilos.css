@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.faq {
+    list-style: none;
+    padding: 0;
+}
+
+.faq li {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+}
+
+.faq h2 {
+    font-size: 1.1rem;
+    margin: 0;
+    cursor: pointer;
+    color: #0056b3;
+}
+
+.faq p {
+    margin: 10px 0 0;
+}
+
+.oculto {
+    display: none;
+}

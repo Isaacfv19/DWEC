@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.galeria {
+    max-width: 600px;
+}
+
+#imagen-principal {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.miniaturas {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.miniatura {
+    width: 100px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.miniatura.activa {
+    border-color: #ff7f50;
+}

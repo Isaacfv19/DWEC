@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.nueva-tarea {
+    display: flex;
+    gap: 8px;
+}
+
+.nueva-tarea input {
+    flex: 1;
+    padding: 8px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    margin-top: 8px;
+    background: #f4f4f4;
+    border-radius: 4px;
+}

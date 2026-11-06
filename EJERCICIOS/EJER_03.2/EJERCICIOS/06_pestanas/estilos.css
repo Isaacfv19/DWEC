@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#pestanas button {
+    padding: 10px 18px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background: #eee;
+    cursor: pointer;
+}
+
+#pestanas button:hover {
+    background: #ddd;
+}
+
+.panel {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.oculto {
+    display: none;
+}

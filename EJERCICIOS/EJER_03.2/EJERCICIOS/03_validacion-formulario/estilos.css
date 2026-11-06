@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px 16px;
+}
+
+#informe-errores {
+    margin-top: 20px;
+}
+
+#informe-errores p {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: #fde2e2;
+    color: #a00;
+}
+
+#informe-errores p.valido {
+    background-color: #e0f5e0;
+    color: #060;
+}
